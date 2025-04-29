@@ -44,10 +44,14 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
     messageElement.textContent = "Processando...";
 
     // Chamada à API com o parâmetro de consulta correto
-    fetch(`https://rapidapi.com/ytjar/api/youtube-mp36?url=${encodeURIComponent(videoUrl)}`)
+    fetch(
+      `https://rapidapi.com/ytjar/api/youtube-mp36?url=${encodeURIComponent(
+        videoUrl
+      )}`
+    )
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Erro na resposta da API');
+          throw new Error("Erro na resposta da API");
         }
         return response.json();
       })

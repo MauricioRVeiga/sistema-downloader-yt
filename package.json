@@ -1,0 +1,25 @@
+{
+  "name": "sistemadownloader",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioRVeiga/SistemaDownloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauricioRVeiga/SistemaDownloader/issues"
+  },
+  "homepage": "https://github.com/MauricioRVeiga/SistemaDownloader#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "ytdl-core": "^4.11.5"
+  }
+}
